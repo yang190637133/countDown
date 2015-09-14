@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="Generator" content="EditPlus®">
+		<meta name="Author" content="">
+		<meta name="Keywords" content="">
+		<meta name="Description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+		<title>countDown</title>
+		<link rel="stylesheet" type="text/css" href="css/countDown.css" />
+        <script type="text/javascript" src="js/countDown.js"></script>
+	</head>
+	<body>
+	<div id="con" style="margin-right: 15px;">
+	</div>
+
+    <script>
+
+        window.onload = function(){
+            var fc = fg.fgcountdown({
+                dataFrom : new Date("2015/09/03 00:00:00"),
+                dataTo : new Date("2015/12/01 00:00:01"),
+                timeCount : undefined,
+                renderTo : document.getElementById("con"),
+                showDays : true,
+                showHours: true,
+                showMinutes: true,
+                showSeconds: true
+            });
+
+            //fc.render();
+            fc.start();
+        }
+    </script>
+
+	</body>
+</html>

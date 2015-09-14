@@ -1,0 +1,71 @@
+.fgCountdown {
+    padding: 0px;
+    margin: 0px;
+    white-space: nowrap;
+}
+.fgCountdown .group {
+    padding: 0px;
+    margin: 0px;
+    display: inline-block;
+}
+.fgCountdown .group>.container {
+    background-image: url("../image/jcountdown_flip_black.png");
+}
+.fgCountdown .group>.container {
+    width: 50px;
+    height: 64px;
+    padding: 6px 2px 2px 2px;
+    margin: 0px 0px 0px 1px;
+    background-position: 0px -960px;
+}
+.fgCountdown .group>.container {
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    display: inline-block;
+}
+
+.fgCountdown .group>.container>.text {
+    background-image: url("../image/jcountdown_flip_black.png");
+}
+.fgCountdown .group>.container>.text {
+    width: 50px;
+    height: 64px;
+}
+.fgCountdown .group>.container>.text {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.fgCountdown .group.second>.label {
+    background-position: -60px -1045px;
+}
+.fgCountdown .group>.label {
+    background-image: url("../image/jcountdown_flip_black.png");
+}
+.fgCountdown .group>.label {
+    height: 13px;
+}
+.fgCountdown .group>.label {
+    position: relative;
+    left: 50%;
+    padding: 0px;
+    margin: 0px 0px 0px -40px;
+    width: 80px;
+}
+.fgCountdown .group.day>.label {
+    background-position: -60px -970px;
+}
+.fgCountdown .group.hour>.label {
+    background-position: -60px -995px;
+}
+.fgCountdown .group.minute>.label {
+    background-position: -60px -1020px;
+}
+.fgCountdown .group.second>.label {
+    background-position: -60px -1045px;
+}
+
+
+.fgCountdown .group{margin:10px;}
