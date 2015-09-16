@@ -3,19 +3,19 @@
 
 ------------------------------------------------------------------------
 
-            var fc = fg.fgcountdown({
-&ensp;                dataFrom : new Date("2015/09/03 00:00:00"),
-&ensp;                dataTo : new Date("2015/12/01 00:00:01"),
-&ensp;                timeCount : undefined,
-&ensp;                renderTo : document.getElementById("con"),
-&ensp;                showDays : true,
-&ensp;                showHours: true,
-&ensp;                showMinutes: true,
-&ensp;                showSeconds: true
-            });
+            var fc = fg.fgcountdown({<br>
+&ensp;                dataFrom : new Date("2015/09/03 00:00:00"),<br>
+&ensp;                dataTo : new Date("2015/12/01 00:00:01"),<br>
+&ensp;                timeCount : undefined,<br>
+&ensp;                renderTo : document.getElementById("con"),<br>
+&ensp;                showDays : true,<br>
+&ensp;                showHours: true,<br>
+&ensp;                showMinutes: true,<br>
+&ensp;                showSeconds: true<br>
+            });<br>
 
-	    开始执行倒计时
-            fc.start();
+	    开始执行倒计时<br>
+            fc.start();<br>
 
 ------------------------------------------------------------------------
 属性介绍
