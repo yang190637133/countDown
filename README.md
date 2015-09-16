@@ -3,7 +3,8 @@
 
 ------------------------------------------------------------------------
 
-            var fc = fg.fgcountdown({<br>
+¿Ø¼þËµÃ÷
+            var fc = fg.fgcountdown({ <br>
 &ensp;                dataFrom : new Date("2015/09/03 00:00:00"),<br>
 &ensp;                dataTo : new Date("2015/12/01 00:00:01"),<br>
 &ensp;                timeCount : undefined,<br>
